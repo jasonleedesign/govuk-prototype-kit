@@ -6,7 +6,7 @@ To do this, we’re going to need an ‘ineligible.html’ page, and some logic 
 
 This kind of logic goes in a file called `app/routes.js`. Routes tell the kit what to do when the user goes to specific pages, and it’s written in JavaScript.
 
-The route takes the answer the user gave to the first question and either show them the next question or the ineligible page, depending on their answer.
+The route takes the answer the user gave to the first question and either shows them the next question or the ineligible page, depending on their answer.
 
 ## Create the ineligible page
 
@@ -18,7 +18,7 @@ Check it works by visiting https://localhost:3000/ineligible
 
 ## Create a route
 
-We’re going to write some logic to process the user’s answer to question 1. If the user can juggle 3 balls or more (the first answer), we’ll show them question 2. If they answer with anything else, we’ll show them the ineligible page.
+We’re going to write some logic to process the user’s answer to question 1. If the user can juggle 3 balls or more, we’ll show them question 2. If they answer with anything else, we’ll show them the ineligible page.
 
 Currently, the `juggling-balls` page sends the user directly to question 2. We’re going to instead send them to a new special url where we can run some code to check their answer.
 

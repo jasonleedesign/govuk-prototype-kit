@@ -26,7 +26,7 @@ Currently, the `juggling-balls` page sends the user directly to question 2. Weâ€
 
 2. Open `/app/routes.js`
 
-3. Insert new javascript into line 5, before `module.exports = router`
+3. Insert new JavaScript into line 5, before `module.exports = router`
 
 ```
 router.post('/juggling-balls-answer', function (req, res) {

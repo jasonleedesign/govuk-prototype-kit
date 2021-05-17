@@ -14,7 +14,7 @@ The route takes the answer the user gave to the first question and either shows 
 
 2. Update the content to tell the user why they’re ineligible and what they can do next.
 
-Check it works by visiting https://localhost:3000/ineligible
+Check it works by visiting http://localhost:3000/ineligible
 
 ## Create a route
 
